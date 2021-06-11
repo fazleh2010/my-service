@@ -1,0 +1,10 @@
+my/org/weblicht/DemoConfiguration.class
+my/org/weblicht/core/ReferencesTool.class
+my/org/weblicht/core/NamedEntitiesTool.class
+my/org/weblicht/resources/StreamingTempFileOutput.class
+my/org/weblicht/core/TokSentencesTool.class
+my/org/weblicht/resources/ReferencesResource.class
+my/org/weblicht/resources/IndexResource.class
+my/org/weblicht/resources/TokSentencesResource.class
+my/org/weblicht/DemoApplication.class
+my/org/weblicht/resources/NamedEntitiesResource.class

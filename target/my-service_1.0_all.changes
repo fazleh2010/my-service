@@ -1,0 +1,20 @@
+Format: 1.8
+Date: Fri, 11 Jun 2021 14:38:30 +0200
+Source: my-service
+Binary: my-service
+Architecture: all
+Version: 1.0
+Distribution: unknown
+Urgency: low
+Maintainer: Put maintainer information here
+Changed-By: Put maintainer information here
+Description:
+ my-service - Put your desciption here
+Changes:
+ my-service (1.0) unknown; urgency=low
+Checksums-Sha1:
+ 5ee929676a56ab236254cfda54799abcc125bb30 18900698 my-service_1.0_all.deb
+Checksums-Sha256:
+ 3022a8607df5f7948e27974a87931ae8738d1f8674e76b2b8be92667eaa559ad 18900698 my-service_1.0_all.deb
+Files:
+ a0cd28faa060035e9e3f83581bf07f07 18900698 misc optional my-service_1.0_all.deb

@@ -1,0 +1,7 @@
+BASEDIR=/var/lib/my-service
+LOGDIR=/var/log/my-service
+HEAPSIZE=1024m
+CONFFILE=/etc/clarind/my-service.yaml
+SERVICEJARFILE=/usr/share/my-service/my-service.jar
+CONTEXTPATH=/my-service
+export LOGDIR CONTEXTPATH BASEDIR HEAPSIZE CONFFILE SERVICEJARFILE

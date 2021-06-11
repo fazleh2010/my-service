@@ -1,0 +1,22 @@
+server:
+  type: simple
+  applicationContextPath: /my-service
+  connector:
+    type: http
+    port: 4016
+  requestLog:
+    timeZone: UTC
+    appenders:
+      - type: file
+        currentLogFilename: /var/log/my-service/access.log
+        archivedLogFilenamePattern: /var/log/my-service/access-%d.log.gz
+        archivedFileCount: 5
+
+logging:
+  level: INFO
+  appenders:
+    - type: file
+      currentLogFilename: /var/log/my-service/my-service.log
+      archivedLogFilenamePattern: /var/log/my-service/my-service-%d.log.gz
+      archivedFileCount: 5
+      timeZone: UTC
